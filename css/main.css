@@ -3237,14 +3237,11 @@ form .inputs-description {
 }
 
 .google-map {
-  width: 70%;
+  width: 90%;
   height: 90%;
   position: absolute;
-  right: 10%;
   top: 5%;
-  border: solid 10px #f9f9fa;
-  border-radius: 5%;
-  padding: 20px;
+  background: #f9f9fa;
 }
 .google-map iframe {
   border-radius: 5%;
