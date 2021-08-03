@@ -1988,6 +1988,7 @@ form .inputs-description {
   display: inline-block;
   line-height: 1;
   margin-right: 2.4rem;
+  font-size: 20px;
 }
 
 .socials ul li:last-of-type {
@@ -1999,6 +2000,7 @@ form .inputs-description {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffffff;
+  font-size: 25px;
 }
 
 .no-touch .socials ul li:hover a {
@@ -3234,9 +3236,14 @@ form .inputs-description {
   }
 }
 
-#google-map {
-  position: relative;
-  height: 100%;
+.google-map {
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  border: solid 10px #f9f9fa;
+  border-radius: 5%;
 }
 
 @media only screen and (min-width: 1200px) {
