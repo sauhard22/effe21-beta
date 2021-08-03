@@ -1236,10 +1236,6 @@ form .inputs-description {
   left: 0;
   width: 100px;
   height: 100px;
-  background: -webkit-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: -moz- oldlinear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(135deg, #fc466b 0%, #00dbde 100%);
 }
 
 .header .logo img {
