@@ -218,8 +218,9 @@ img {
   row-gap: 12px;
   column-gap: 12px;
   overflow-y: scroll;
-  padding: 12px;
-  border-left: 4px dotted #fefefe;
+  padding-right: 15px;
+  padding-left: 40px;
+  border-left: 4px solid #fefefe;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -230,14 +231,15 @@ img {
   border-radius: 10px;
 }
 .sponsor-card {
-  /* background-color: aqua;
-  border: 5px solid red; */
-  height: 250px;
+  /* background-color: aqua; */
+  border-top: 2px solid #fefefe;
+  border-bottom: 2px solid #fefefe;
+  height: 280px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 120px 60px 40px;
+  margin-bottom: 30px;
+  border-radius: 10%;
 }
 
 .sponsor-card:nth-child(1) {
@@ -246,8 +248,12 @@ img {
   height: 280px;
 }
 .sponsor-card img {
+  /* background-color: yellow; */
   width: 80px;
+  display: block;
+  margin: auto;
 }
+
 .sponsor-card img:nth-child(1) {
   width: 150px;
 }
@@ -255,10 +261,30 @@ img {
   font-size: 2.5rem;
   font-weight: bold;
   color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
 }
 .sponsor-title {
   font-size: 1.5rem;
+  /* background-color: green; */
   color: #b3b6bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+.brochure-container {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+.brochure-container iframe {
+  position: absolute;
+  right: 0%;
+  width: 93%;
+  height: 100%;
 }
 @media only screen and (min-width: 1200px) {
   .fullheight {
@@ -573,6 +599,7 @@ h1 span.gradient-text {
   color: #fc466b;
   background: -webkit-linear-gradient(0deg, #fc466b 0%, #00dbde 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1148,6 +1175,7 @@ form .inputs-description {
 .reply-group__icon::before {
   background: -webkit-linear-gradient(-45deg, #fc466b 0%, #00dbde 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1995,6 +2023,7 @@ form .inputs-description {
   color: #ffffff;
   background: -webkit-linear-gradient(0deg, #fc466b 0%, #00dbde 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -2007,6 +2036,7 @@ form .inputs-description {
   color: #ffffff;
   background: -webkit-linear-gradient(0deg, #fc466b 0%, #00dbde 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
