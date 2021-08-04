@@ -211,21 +211,28 @@ img {
   position: absolute;
   right: 2%;
   top: 5%;
-  width: 45%;
+  width: 50%;
   height: 90%;
-  border: 5px solid #fefefe;
-  border-radius: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 12px;
   column-gap: 12px;
   overflow-y: scroll;
   padding: 12px;
+  border-left: 4px dotted #fefefe;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  padding-right: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fefefe;
+  border-radius: 10px;
 }
 .sponsor-card {
-  background-color: aqua;
-  border: 5px solid red;
-  height: 200px;
+  /* background-color: aqua;
+  border: 5px solid red; */
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -236,18 +243,21 @@ img {
 .sponsor-card:nth-child(1) {
   grid-column-start: 1;
   grid-column-end: 3;
-  height: 300px;
+  height: 280px;
 }
 .sponsor-card img {
+  width: 80px;
+}
+.sponsor-card img:nth-child(1) {
   width: 150px;
 }
 .sponsor-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #fefefe;
 }
 .sponsor-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #b3b6bc;
 }
 @media only screen and (min-width: 1200px) {
