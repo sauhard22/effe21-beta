@@ -171,8 +171,8 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2021, 12, 26), format: 'D'});
-  $('#countdown-large').countdown({until: $.countdown.UTCDate(+10, 2021, 12, 26), format: 'DHMS'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2021, 10, 8), format: 'D'});
+  $('#countdown-large').countdown({until: $.countdown.UTCDate(+10, 2021, 10, 8), format: 'DHMS'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
