@@ -179,11 +179,11 @@ $(function () {
   // KBW-Countdown Start
   // --------------------------------------------- //
   $("#countdown").countdown({
-    until: $.countdown.UTCDate(+10, 2021, 10, 8),
+    until: new Date(2021, 9, 8),
     format: "D",
   });
   $("#countdown-large").countdown({
-    until: $.countdown.UTCDate(+10, 2021, 10, 8),
+    until: new Date(2021, 9, 8),
     format: "DHMS",
   });
   // --------------------------------------------- //
