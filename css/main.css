@@ -209,12 +209,17 @@ img {
 .sponsors-section {
   border-left: 4px solid #fefefe;
 }
+@media screen and (max-width: 1200px) {
+  .sponsors-section {
+    border-left: 0px solid #fefefe;
+  }
+}
 .sponsors-container {
   position: absolute;
   right: 2%;
-  /* top: 5%; */
-  width: 100%;
-  height: 100%;
+  top: 5%;
+  width: 90%;
+  height: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 12px;
@@ -223,17 +228,15 @@ img {
   padding-right: 15px;
   padding-left: 40px;
 }
+
 ::-webkit-scrollbar {
   width: 8px;
-  padding-right: 2px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #fefefe;
   border-radius: 10px;
 }
 .sponsor-card {
-  /* background-color: aqua; */
-  /* border: 2px solid #fefefe; */
   height: 280px;
   width: 100%;
   display: grid;
@@ -248,15 +251,12 @@ img {
   height: 280px;
 }
 .sponsor-card img {
-  width: 80px;
+  width: 130px;
   display: block;
   margin: auto;
   padding-top: 10%;
 }
 
-.sponsor-card img:nth-child(1) {
-  width: 150px;
-}
 .sponsor-name {
   font-size: 2.5rem;
   font-weight: bold;
@@ -264,8 +264,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   /* background-color: red; */
 }
+
 .sponsor-title {
   font-size: 1.5rem;
   /* background-color: green; */
@@ -273,19 +275,18 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   /* background-color: green; */
 }
-.brochure-container {
-  background-color: red;
-  width: 100%;
-  height: 100%;
+@media screen and (max-width: 512px) {
+  .sponsor-name {
+    font-size: 2.2rem;
+  }
+  .sponsor-title {
+    font-size: 1.2rem;
+  }
 }
-.brochure-container iframe {
-  position: absolute;
-  right: 0%;
-  width: 93%;
-  height: 100%;
-}
+
 @media only screen and (min-width: 1200px) {
   .fullheight {
     position: relative;
