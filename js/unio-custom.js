@@ -93,7 +93,7 @@ $(window).on("load", function () {
 });
 
 $(function () {
-  "use strict";
+  ("use strict");
 
   // --------------------------------------------- //
   // Skillbars Settings Start
@@ -186,6 +186,7 @@ $(function () {
     until: $.countdown.UTCDate(+10, 2021, 10, 8),
     format: "DHMS",
   });
+
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //

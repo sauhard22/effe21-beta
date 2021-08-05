@@ -232,8 +232,7 @@ img {
 }
 .sponsor-card {
   /* background-color: aqua; */
-  border-top: 2px solid #fefefe;
-  border-bottom: 2px solid #fefefe;
+  /* border: 2px solid #fefefe; */
   height: 280px;
   width: 100%;
   display: grid;
@@ -248,10 +247,10 @@ img {
   height: 280px;
 }
 .sponsor-card img {
-  /* background-color: yellow; */
   width: 80px;
   display: block;
   margin: auto;
+  padding-top: 10%;
 }
 
 .sponsor-card img:nth-child(1) {
