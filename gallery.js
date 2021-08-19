@@ -17,7 +17,7 @@ const galleryContent = {
     "./img/effe/images/gallery/ritviz.jpg",
     "./img/effe/images/gallery/chai2.JPG",
   ],
-  paragraphLeft: ["2020", "2019", "2019", "2018", "2018"],
+  paragraphLeft: ["2020", "2019", "2019", "2019", "2019"],
   headingRight: [
     "Vishal Mishra",
     "Farhan Akhtar",
